@@ -1,0 +1,4 @@
+# 在模板仓库中创建 cargo-generate.toml
+[template]
+exclude = ["cliff.toml"]  # 跳过替换的文件列表
+include = []              # 明确需要替换的文件列表（可选）
